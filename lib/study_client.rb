@@ -7,5 +7,8 @@ module StudyClient
     end
 
     class Node < Base
+        def cost_code
+            self.send('cost-code')
+        end
     end
 end
