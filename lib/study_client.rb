@@ -13,8 +13,8 @@ module StudyClient
         end
     end
 
-    class Collection < Node
-        # This is not really a collection. It is a node with a set-id.
+    class Collection < Base
+        # This 'collection' is actually a link between a node and a set
         def set_id
             attributes['set-id']
         end
