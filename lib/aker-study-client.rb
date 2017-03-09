@@ -1,4 +1,4 @@
-require "study_client/version"
+require "aker-study-client/version"
 require "json_api_client"
 
 module StudyClient
