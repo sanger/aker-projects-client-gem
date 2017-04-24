@@ -1,10 +1,11 @@
 # StudyClient
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/aker-study-client`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A JSON API Client for Aker's study application.
 
 ## Installation
+
+This gem currently uses the version of json_api_client from Sanger's github repo.
+Since gemspec does not support git depenencies, this gem should built using bundle.
 
 Add this line to your application's Gemfile:
 
