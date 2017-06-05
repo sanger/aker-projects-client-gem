@@ -11,6 +11,10 @@ module StudyClient
         def cost_code
             attributes['cost-code']
         end
+
+        def node_uuid
+            attributes['node-uuid']
+        end
     end
 
     class Collection < Base
