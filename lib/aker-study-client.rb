@@ -23,4 +23,7 @@ module StudyClient
       attributes['set-id']
     end
   end
+
+  class Permission < Base
+  end
 end
