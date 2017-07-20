@@ -5,6 +5,8 @@ module StudyClient
 
   class Base < JsonApiClient::Resource
     self.site = ENV['STUDY_URL']
+
+    has_many :permissions
   end
 
   class Node < Base
