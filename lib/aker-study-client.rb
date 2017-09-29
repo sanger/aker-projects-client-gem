@@ -27,5 +27,8 @@ module StudyClient
   end
 
   class Permission < Base
+    def permission_type
+      attributes['permission-type']
+    end
   end
 end
