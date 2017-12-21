@@ -23,7 +23,7 @@ module StudyClient
     end
 
     def subproject?
-      attributes['is-sub-project-nodes']
+      attributes['is-sub-project-node']
     end
   end
 
