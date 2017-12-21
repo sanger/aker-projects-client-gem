@@ -25,6 +25,10 @@ module StudyClient
     def subproject?
       attributes['is-sub-project-node']
     end
+
+    def parent_id
+      attributes['parent-id']
+    end
   end
 
   class Collection < Base
