@@ -17,6 +17,14 @@ module StudyClient
     def node_uuid
       attributes['node-uuid']
     end
+
+    def project?
+      attributes['is-project-node']
+    end
+
+    def subproject?
+      attributes['is-sub-project-nodes']
+    end
   end
 
   class Collection < Base
