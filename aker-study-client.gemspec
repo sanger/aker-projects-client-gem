@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'aker-study-client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "aker-study-client"
+  spec.name          = "aker_projects_client"
   spec.version       = StudyClient::VERSION
   spec.authors       = ["David Robinson"]
   spec.email         = ["dr6@sanger.ac.uk"]
