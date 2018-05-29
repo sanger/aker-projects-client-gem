@@ -30,9 +30,6 @@ module StudyClient
       attributes['parent-id']
     end
 
-    def data_release_uuid
-      attributes['data-release-strategy-id']
-    end
   end
 
   class Collection < Base
