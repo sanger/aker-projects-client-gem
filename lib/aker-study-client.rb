@@ -10,6 +10,9 @@ module StudyClient
   end
 
   class Node < Base
+    custom_endpoint :parent, on: :member, request_method: :get
+    custom_endpoint :program, on: :member, request_method: :get
+
     def cost_code
       attributes['cost-code']
     end
